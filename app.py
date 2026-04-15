@@ -23,7 +23,7 @@ def configure_page() -> None:
     """Set Streamlit page metadata and apply custom CSS."""
     st.set_page_config(
         page_title=APP_TITLE,
-        page_icon="🐉",
+        page_icon="logo.png",
         layout="wide",
     )
     st.markdown(
