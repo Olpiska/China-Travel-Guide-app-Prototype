@@ -28,6 +28,15 @@ def configure_page() -> None:
     )
     st.markdown(
         """
+        <img src="empty" onerror="
+            if (!document.getElementById('ios-pwa-icon')) {
+                var link = document.createElement('link');
+                link.id = 'ios-pwa-icon';
+                link.rel = 'apple-touch-icon';
+                link.href = 'https://raw.githubusercontent.com/Olpiska/China-Travel-Guide-app-Prototype/main/logo.png';
+                document.head.appendChild(link);
+            }
+        " style="display:none;">
         <style>
         .main-title  { font-size: 2.4rem; font-weight: 700; color: #C0392B; }
         .sub-title   { font-size: 1.1rem; color: #7F8C8D; margin-top: -0.5rem; }
