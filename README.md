@@ -168,4 +168,4 @@ It is designed as a research-oriented prototype, with potential for future expan
 
 - Mobile application version
 
-API integrations (maps, booking systems)
+API integrations (maps, booking systems).
